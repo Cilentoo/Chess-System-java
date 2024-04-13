@@ -35,3 +35,43 @@ Para executar diretamente no terminal, utilize o arquivo exportado do projeto ch
 Lembrando que é necessário ter o Java instalado na máquina na versão 11 ou superior.
 
 O turno começa com as peças Brancas (WHITE). A UI do programa solicita a entrada de origem da peça a mover (Source). Exemplo: "a2" seleciona o Peão Branco da posição A2. Confirme com ENTER e então o programa solicitará a o destino (Target) da nova posição da peça, exemplo "a4". Observe que o programa já mostra quais movimentos possíveis da peça e trata possíveis erros de movimentação. Depois de uma movimentação válida do atual jogador segue-se para o movimento do opositor, ou seja, da peça preta (BLACK). Concluída o turno, segue-se para o próximo repetindo-se a sequência. As peças capturadas são mostradas em todas a rodadas.
+
+
+
+Carga horária
+O projeto foi guiado por 33 videos-aulas do curso, cerca de 5h45m de gravações e atividades de desenvolvimento de aproximadamente 10h.
+
+Conteúdo: Sistema jogo de xadrez - 33 aulas - 5h45m
+Visão geral do capítulo Sistema Jogo de Xadrez
+Material de apoio do capítulo
+Criando projeto e repositório Git
+Primeira classe - Position
+Começando a implementar Board e Piece
+Camada Chess e imprimindo o tabuleiro
+Colocando peças no tabuleiro
+BoardException e programação defensiva
+ChessException e ChessPosition
+Pequena melhoria na impressão do tabuleiro
+Movendo peças
+Tratando exceções e limpando a tela
+Movimentos possíveis de uma peça
+Implementando movimentos possíveis da Torre
+Imprimindo os movimentos possíveis
+Implementando os movimentos possíveis do Rei
+Trocando de jogador a cada turno
+Manipulando peças capturadas
+Lógica de xeque - PARTE 1
+Lógica de xeque - PARTE 2
+Lógica de xequemate
+Contagem de movimentos das peças
+Peão
+Bispo
+Cavalo
+Rainha
+Jogada especial Roque - PARTE 1
+Jogada especial Roque - PARTE 2
+Jogada especial en passant - PARTE 1
+Jogada especial en passant - PARTE 2
+Jogada especial promoção
+Atualização de compliance
+Dando um tratamento melhor para promoção
